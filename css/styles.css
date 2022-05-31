@@ -1,0 +1,260 @@
+/* Colors 
+Main text color #212121
+Secondary text color #757575
+Background color #FFFFFF
+Active color #2196F3
+Hero color #2F303A
+OurTeam color #F5F4FA
+*/
+:root {
+  --background-color: #ffffff;
+  --maintext-color: #212121;
+  --additionaltext-color: #757575;
+  --active-color: #2196f3;
+  --focused-button: #188ce8;
+  --footer-color: #2f303a;
+  --footer-contacts-color: #ffffff99;
+  --teams-background-color: #F5F4FA;
+}
+
+body {
+  color: var(--maintext-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--active-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+}
+
+.logo__header__deco {
+  color: var(--maintext-color);
+}
+
+.logo__footer {
+  line-height: 1.19;
+}
+
+.logo__footer_deco {
+  color: var(--background-color);
+}
+
+/* Navigation */
+.nav__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+}
+
+.nav__link {
+  color: var(--maintext-color);
+
+}
+
+.nav__link:focus,
+.nav__link:hover {
+  color: var(--active-color);
+}
+
+.nav__link_active {
+  color: var(--active-color);
+}
+
+.nav__contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav__contact__link {
+  color: var(--additionaltext-color);
+
+}
+
+.nav__contact__link:focus,
+.nav__contact__link:hover {
+  color: var(--active-color);
+}
+
+.contacts__place {
+  color: var(--background-color);
+  line-height: 1.71;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-color);
+}
+
+.footer__address {
+  color: var(--background-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+
+}
+
+.footer__link {
+  color: var(--footer-contacts-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer__link:focus,
+.footer__link:hover {
+  color: var(--active-color);
+}
+
+
+
+/* Buttons */
+.button {
+  color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--active-color);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+}
+
+.button__inactive {
+  background-color: #f5f4fa;
+  color: var(--maintext-color);
+}
+
+.button__inactive:hover,
+.button__inactive:focus {
+  color: var(--background-color);
+  background-color: var(--active-color);
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  line-height: 1.875;
+}
+
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: var(--focused-button);
+}
+
+.qualities__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.qualities__descr {
+  color: var(--additionaltext-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--teams-background-color);
+}
+
+.team__member {
+  background-color: var(--background-color);
+}
+
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+}
+
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+
+  line-height: 1.185;
+}
+
+.team__job {
+  color: var(--additionaltext-color);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.185;
+}
+
+/* Cards */
+.cards__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--background-color);
+}
+
+.card__title {
+  color: var(--maintext-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card__img {
+  background-color: var(--background-color);
+}
+
+.card__descr {
+  color: var(--additionaltext-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
