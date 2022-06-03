@@ -45,7 +45,7 @@ img {
 
 .container {
   width: 1200px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -58,8 +58,9 @@ img {
 }
 
 .link {
-  text-decoration: none;
+  display: block;
 
+  text-decoration: none;
 }
 
 .list {
@@ -111,7 +112,7 @@ img {
 }
 
 .nav__item {
-  display: block;
+
 
   font-weight: 500;
   font-size: 14px;
@@ -125,6 +126,7 @@ img {
 }
 
 .nav__link {
+
   color: var(--maintext-color);
   padding-top: 32px;
   padding-bottom: 32px;
