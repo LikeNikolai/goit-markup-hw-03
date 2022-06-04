@@ -68,9 +68,13 @@ img {
 }
 
 .header {
+  border-bottom: #ECECEC 1px solid;
+}
+
+.header-container {
   display: flex;
   align-items: center;
-  border-bottom: #ECECEC 1px solid;
+
 }
 
 /* Logo */
@@ -297,11 +301,6 @@ img {
 
 /* QUALITIES */
 
-/* .qualities.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
-
 .qualities__list {
   display: flex;
 }
@@ -344,7 +343,6 @@ img {
 .works__item:not(:last-child) {
   width: 370px;
   margin-right: 30px;
-
 }
 
 
