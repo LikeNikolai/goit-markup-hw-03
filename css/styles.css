@@ -417,9 +417,7 @@ img {
   text-align: center;
 }
 
-.card {
-  background-color: var(--background-color);
-}
+
 
 .portfolio__buttons {
   display: flex;
@@ -436,6 +434,8 @@ img {
 .portfolio-button__item:not(:last-child) {
   margin-right: 8px;
 }
+
+/* --------------CARDS--------------------- */
 
 .cards__button {
   border-radius: 4px;
@@ -457,15 +457,7 @@ img {
 
 .cards {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-
-}
-
-
-.card:not(:nth-child(3n)) {
-  margin-right: 30px;
-  margin-bottom: 30px;
 
 }
 
@@ -488,12 +480,19 @@ img {
   line-height: 1.88;
 }
 
+.card {
+  background-color: var(--background-color);
+  /* width: calc((100%-60px)/3); */
+}
+
+.card:not(:nth-child(3n)) {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
 .card__container {
   padding: 20px 24px;
   border: #EEEEEE 1px solid;
-  /* border: #EEEEEE 1px solid;
-  border: #EEEEEE 1px solid; */
-
 }
 
 .card:nth-last-child(-n + 3) {
